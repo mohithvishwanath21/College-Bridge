@@ -64,7 +64,7 @@ By integrating job matching, real-time code collaboration, and academic tracking
 
 **💻 Real-Time Code Editor:**
 
-- The **Monaco Editor** is integrated into the **Coding Section** for real-time code editing with features like **syntax highlighting**, **auto-completion**, and support for multiple languages. Please note that the **code editor** is still in development and may not be fully functional at this time.
+- The **Monaco Editor** is integrated into the **Coding Section** for real-time code editing with features like **syntax highlighting**, **auto-completion**, and support for multiple languages. 
 
 ---
 
@@ -74,7 +74,7 @@ By integrating job matching, real-time code collaboration, and academic tracking
   
 - **Doubt Solver Chatbot:** An AI-powered chatbot designed to assist students with coding-related doubts and other questions.
 
-- **Job Recommendations:** Based on student performance and coding activity, the system will suggest potential job opportunities and career paths (upcoming).
+- **Job Recommendations:** Based on student performance and coding activity, the system will suggest potential job opportunities and career paths
 
 ---
 
