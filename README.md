@@ -1,73 +1,116 @@
-# Welcome to your Lovable project
+# **College Bridge – Integrated Academic LMS + Coding Skill Development Platform**
 
-## Project info
+### **Selected Domain:**
+- **Web Development**
 
-**URL**: https://lovable.dev/projects/dfbf4c18-2bc1-4974-ab61-a2f6967b7e65
+### **Problem Statement**
 
-## How can I edit this code?
+#### **Problem Statement:**
+Campus Bridge – Integrated Academic LMS + Coding Skill Development Platform  
+The aim of this project is to bridge the gap between theoretical learning and practical coding skills by integrating both into a single platform. College Bridge serves as an academic learning management system (LMS) for students, faculty, and administrators. This platform will provide coding skill development modules alongside academic learning features, such as performance analytics, course tracking, coding challenges, and a job matching system.
 
-There are several ways of editing your application.
+#### **Use Case:**
+The platform is designed to help students track their academic and coding progress, interact with faculty and peers, and gain job opportunities based on their coding performance. Faculty can manage courses, assignments, and discussions. Administrators have a global view of the platform, with full control over user roles and system management.
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/dfbf4c18-2bc1-4974-ab61-a2f6967b7e65) and start prompting.
+### **Abstract / Problem Description:**
 
-Changes made via Lovable will be committed automatically to this repo.
+**College Bridge** is a comprehensive platform designed to cater to the needs of students, faculty, and administrators in an academic environment. The platform integrates Learning Management System (LMS) features with coding skill development tools, enabling students to improve their theoretical and practical skills simultaneously.
 
-**Use your preferred IDE**
+Students can track their academic progress, enroll in courses, submit assignments, and participate in coding challenges. The **Coding** section features a live code editor (currently in development) and a challenge leaderboard, motivating students to improve their coding skills. Faculty members can create courses, manage assignments, and engage in academic discussions. Administrators have oversight of the entire platform, managing user roles, performance metrics, and system configurations.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+By integrating job matching, real-time code collaboration, and academic tracking in one platform, College Bridge offers an innovative solution to learning and skill-building. The platform’s **AI-powered features** (coming soon) will help students accelerate their learning and career growth.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+### **Tech Stack Used:**
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+- **Frontend:** React, Tailwind CSS
+- **Backend:** Node.js, Express
+- **Database:** Supabase (for authentication, database management)
+- **Real-time Code Editor:** Monaco Editor (in development)
+- **AI-Powered Features:** Custom models for code hints and job recommendations (coming soon)
+- **Deployment:** Vercel or Netlify (for frontend), Supabase (for backend)
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+### **Detailed Tech Stack Explanation:**
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+If judges ask you to explain your tech stack in more depth, here’s how you can confidently explain each part:
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+**🛠️ Frontend:**
 
-**Use GitHub Codespaces**
+- **React** is the core library for building the user interface, providing a dynamic and fast experience. It helps with seamless routing and UI component rendering for all sections: **Dashboard**, **Academics**, **Coding**, and **Leaderboard**.
+  
+- **Tailwind CSS** is used to design a responsive and clean UI. It allows for quick styling and customization, making the UI highly interactive and mobile-responsive with minimal effort.
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+**🔐 Backend:**
 
-This project is built with:
+- **Node.js** powers the backend, ensuring that the application can handle asynchronous events and manage real-time updates efficiently.
+  
+- **Express** is used for creating robust APIs, facilitating communication between the frontend and backend.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+**📊 Database:**
 
-Simply open [Lovable](https://lovable.dev/projects/dfbf4c18-2bc1-4974-ab61-a2f6967b7e65) and click on Share -> Publish.
+- **Supabase** is used for both user authentication and database management. It provides a PostgreSQL-based database and built-in support for authentication (email-based) and real-time data syncing.
+  
+- The **database schema** stores critical data related to users (students, faculty, and admins), courses, assignments, coding challenges, and performance metrics.
 
-## Can I connect a custom domain to my Lovable project?
+---
 
-Yes it is!
+**💻 Real-Time Code Editor:**
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+- The **Monaco Editor** is integrated into the **Coding Section** for real-time code editing with features like **syntax highlighting**, **auto-completion**, and support for multiple languages. Please note that the **code editor** is still in development and may not be fully functional at this time.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+---
+
+**🤖 AI-Powered Features (Upcoming):**
+
+- **Code Review Bot:** Uses AI to review code and give feedback to students on their submissions (coming soon).
+  
+- **Doubt Solver Chatbot:** An AI-powered chatbot designed to assist students with coding-related doubts and other questions (coming soon).
+
+- **Job Recommendations:** Based on student performance and coding activity, the system will suggest potential job opportunities and career paths (upcoming).
+
+---
+
+---
+
+### **Project Explanation:**
+
+**Landing Page:**
+- A Hero Section with navigation links: **Home**, **Dashboard**, **Academics**, **Coding**, **Leaderboard**.
+  
+**Authentication and Role Selection:**
+- **User registration** with email confirmation.
+- **Role-based registration** (Student, Faculty, Admin).
+
+**Dashboard:**
+- A user-friendly dashboard with performance analytics, a calendar, and attendance tracking.
+
+**Academics Section:**
+- **Course management:** View available, enrolled, and completed courses.
+- **Assignment management:** Track active, submitted, and past assignments.
+- **Faculty directory** and search functionality.
+- **Discussions section**: View and participate in discussions (All, My Posts, Unanswered).
+
+**Coding Section:**
+- **Live Code Editor:** Monaco Editor integrated for solving challenges (in development).
+- **Coding Challenges:** Curated coding challenges with a leaderboard.
+- **Job Matching Functionality**: Personalized job suggestions based on coding performance (upcoming).
+
+**Profile Section:**
+- Users can update their **personal information** (name, email, program, semester, bio).
+
+---
+
+### **Screenshots of the Project:**
+- https://pdflink.to/bff89d8e/
+---
