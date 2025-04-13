@@ -36,9 +36,6 @@ By integrating job matching, real-time code collaboration, and academic tracking
 ---
 
 ### **Detailed Tech Stack Explanation:**
-
-If judges ask you to explain your tech stack in more depth, here’s how you can confidently explain each part:
-
 ---
 
 **🛠️ Frontend:**
