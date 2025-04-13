@@ -73,7 +73,7 @@ If judges ask you to explain your tech stack in more depth, here’s how you can
 
 **🤖 AI-Powered Features :**
 
-- **Code Review Bot:** Uses AI to review code and give feedback to students on their submissions (coming soon).
+- **Code Review Bot:** Uses AI to review code and give feedback to students on their submissions 
   
 - **Doubt Solver Chatbot:** An AI-powered chatbot designed to assist students with coding-related doubts and other questions.
 
@@ -104,7 +104,7 @@ If judges ask you to explain your tech stack in more depth, here’s how you can
 **Coding Section:**
 - **Live Code Editor:** Monaco Editor integrated for solving challenges (in development).
 - **Coding Challenges:** Curated coding challenges with a leaderboard.
-- **Job Matching Functionality**: Personalized job suggestions based on coding performance (upcoming).
+- **Job Matching Functionality**: Personalized job suggestions based on coding performance 
 
 **Profile Section:**
 - Users can update their **personal information** (name, email, program, semester, bio).
