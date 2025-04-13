@@ -71,11 +71,11 @@ If judges ask you to explain your tech stack in more depth, here’s how you can
 
 ---
 
-**🤖 AI-Powered Features (Upcoming):**
+**🤖 AI-Powered Features :**
 
 - **Code Review Bot:** Uses AI to review code and give feedback to students on their submissions (coming soon).
   
-- **Doubt Solver Chatbot:** An AI-powered chatbot designed to assist students with coding-related doubts and other questions (coming soon).
+- **Doubt Solver Chatbot:** An AI-powered chatbot designed to assist students with coding-related doubts and other questions.
 
 - **Job Recommendations:** Based on student performance and coding activity, the system will suggest potential job opportunities and career paths (upcoming).
 
