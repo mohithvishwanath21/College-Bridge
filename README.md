@@ -30,7 +30,7 @@ By integrating job matching, real-time code collaboration, and academic tracking
 - **Backend:** Node.js, Express
 - **Database:** Supabase (for authentication, database management)
 - **Real-time Code Editor:** Monaco Editor (in development)
-- **AI-Powered Features:** Custom models for code hints and job recommendations (coming soon)
+- **AI-Powered Features:** Custom models for code hints and job recommendations
 - **Deployment:** Vercel or Netlify (for frontend), Supabase (for backend)
 
 ---
